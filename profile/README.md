@@ -37,6 +37,8 @@ Final Reports are structured documents. They generally contain:
 Together, the submitted papers and Final Reports make it possible to trace how policy concerns enter the ATS, how they are discussed, and whether they become part of the formal institutional record.
 
 ## What is Available
-- All final reports have been OCR'ed running a NVIDIA V100 on the NCI using marker-pdf (without llms). The quality of the extraction is generally good (visual check) but will have some issues with `<br>` being inserted. No common OCR artifacts were found (i.e. `2` being `z` etc). Extraction is clean if one is looking for formal outcomes or inputs
-- The final reports use a mixture of arabic numerals (in modern documents, say > ATCM18) and roman numerals (<ATCM18).
+- All *final reports* have been OCR'ed running a NVIDIA V100 on the NCI using marker-pdf (without llms). The quality of the extraction is generally good (visual check) but will have some issues with `<br>` being inserted. No common OCR artifacts were found (i.e. `2` being `z` etc). Extraction is clean if one is looking for formal outcomes or inputs
+  - The final reports use a mixture of arabic numerals (in modern documents, say > ATCM18) and roman numerals (<ATCM18).
+- The Secretariate holds information on what formal inputs (working papers, information papers, secretariate papers, background papers) are submitted to each meeting with additional information on who submitted them, the title, and so on. It can be pulled using this [repo](github.com/carlohamalainen/antarctic-database-go) which will produce a snapshot of the current state of the website, and download what is available in pdf from the links provided in the Secretariats website.
+
 
